@@ -1,0 +1,22 @@
+{
+  "name": "studio",
+  "version": "1.0.0",
+  "description": "Application that aggregates a user's playlists from various sources, and allows a user to play them using the application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha server/index.test.js -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankievx/Studio.git"
+  },
+  "author": "Francis Vithayathil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/frankievx/Studio/issues"
+  },
+  "homepage": "https://github.com/frankievx/Studio#readme",
+  "dependencies": {
+    "express": "^4.13.4"
+  }
+}
